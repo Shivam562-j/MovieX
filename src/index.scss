@@ -26,9 +26,13 @@
   box-sizing: border-box;
 }
 
+*::selection{
+  background-color: #ffb028;
+  color: #000;
+}
+
 body {
   background-color: var(--black);
-  color: #fff;
 }
 
 ::-webkit-scrollbar {
